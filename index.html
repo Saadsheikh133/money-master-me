@@ -20,22 +20,26 @@
                 <img class="bg-cover mx-auto" src="images/money.png" alt="">
             </div>
             <div class="w-full md:w-[40%] mx-auto px-10">
-                <div class="">
+                <div>
                     <h3 class="font-semibold text-xl text-center">Income</h3>
-                    <p class="inline ml-20 mr-3">Income:</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-5 justify-center items-center">
+                    <p class="">Income:</p>
                     <input id="income-field" type="text" placeholder="Type here" class="input input-bordered input-sm w-full max-w-xs my-6 bg-slate-100" />
                 </div>
                 <div>
                     <h3 class="font-semibold text-xl text-center mb-3">Expenses</h3>
-                    <p class="inline ml-24 mr-3">Food:</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-5 justify-center items-center">
+                    <p class=" items-center">Food:</p>
                     <input id="food-field" type="text" placeholder="Type here" class="input input-bordered input-sm w-full max-w-xs my-5 bg-slate-100" />
                 </div>
-                <div>
-                    <p class="inline ml-24 mr-3">Rent:</p>
+                <div class="flex flex-col md:flex-row gap-5 justify-center items-center">
+                    <p class="">Rent:</p>
                     <input id="rent-field" type="text" placeholder="Type here" class="input input-bordered input-sm w-full max-w-xs mb-5 bg-slate-100" />
                 </div>
-                <div>
-                    <p class="inline ml-20 mr-3">Clothes:</p>
+                <div class="flex flex-col md:flex-row gap-5 justify-center items-center">
+                    <p class="">Clothes:</p>
                     <input id="clothes-field" type="text" placeholder="Type here" class="input input-bordered input-sm w-full max-w-xs mb-5 bg-slate-100" />
 
                 </div>
@@ -46,11 +50,11 @@
                     <h2 class="font-semibold text-xl text-center my-5">Total Expenses: <span id="total-expense">0</span></h2>
                     <h2 class="font-semibold text-xl text-center mb-4">Balance: <span id="balance">0</span></h2>
                 </div>
-                <div class="w-full">
-                    <p class="inline ml-20 mr-3">Save:</p>
-                    <input id="save-field" type="text" placeholder="Type here" class="input input-bordered input-sm sm-w-full max-w-xs mb-5 bg-slate-100 md:inline" />
-                    <p class="md:inline mx-8">%</p>
-                    <button id="btn-save" class="btn btn-accent text-white px-8">Save</button>
+                <div class="w-full flex flex-col md:flex-row gap-5 justify-evenly items-center py-5">
+                    <p class="">Save:</p>
+                    <input id="save-field" type="text" placeholder="Type here" class="input input-bordered input-sm sm-w-full max-w-xs  bg-slate-100" />
+                    <p class="">%</p>
+                    <button id="btn-save" class="btn btn-accent text-white">Save</button>
                 </div>
                 <div>
                     <h2 class="text-center font-semibold text-xl mt-3">Saving Amount: <span id="saving-amount">0</span></h2>
